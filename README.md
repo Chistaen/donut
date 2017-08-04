@@ -11,6 +11,7 @@ Donut is licensed under MIT.
 ### Requirements
 
 * PHP 5.6+ (ideally PHP 7+), might work with PHP 5.4+ (not tested)
+* PHP 7+ if you want to use PDF generation
 * MySQL or MariaDB-server
 
 ### Installation
@@ -24,7 +25,7 @@ Donut is licensed under MIT.
 
 Please note that donut still lacks a lot of features. At this moment you should only install donut if you want to take a look at its progress.
 
-If your host does not allow for .htacces rewriting of urls, simply go to `config.php` and change `define('CONFIG_REWRITE', true);` to `define('CONFIG_REWRITE', false);`.
+If your host does not allow for .htacces rewriting of urls it should be turned of automatically, if that however does not work, simply go to `config.php` and change `define('CONFIG_REWRITE', true);` to `define('CONFIG_REWRITE', false);`.
 
 #### Test account
 **Username**: donut
