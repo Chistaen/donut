@@ -27,7 +27,7 @@ class pMainTemplate extends pTemplate{
 	}
 
   public static function loadDots(){
-    return "<center><p class='dots'><span>.</span><span>.</span><span>.</span></p></center>";
+    return "<div class='center'><p class='dots'><span>.</span><span>.</span><span>.</span></p></div>";
   }
 
 	protected function loadJavascript($url){
