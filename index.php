@@ -5,14 +5,11 @@
 // license    MIT
 // file:      index.php
 
-// We need our configuration file
+// We need this file...
 require 'config.php';
 
-// Initialize by calling p, the big helper
-p::initialize();
+// Doing our thing...
+Donut::initialize()->dispatch()->render();
 
-// Calling dispatch via the p
-p::dispatch(CONFIG_FORCE_HOME);
-
-// Rest in peace †
+// And... Bye! 
 die();
